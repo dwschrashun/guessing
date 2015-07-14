@@ -13,6 +13,33 @@ body {
   margin: 0;
 }
 
+.hot {
+  color: red;
+}
+
+.cold {
+  color: blue;
+}
+
+.loser-text {
+  height: 300px;
+  padding: 10px 16px;
+  font-size: 40px;
+  line-height: 1.3333333;
+  text-align: center;
+  border-radius: 0px;
+  border: 0px;
+}
+
+.winner-image {
+  display: block;
+  height: 300px;
+  padding: 10px 16px;
+  border-radius: 0px;
+  border: 0px;
+  margin: 0 auto 0 auto;
+}
+
 .feedback {
   margin: 30px 0;
   font-size: 30px;
@@ -1231,7 +1258,7 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 10px;
 }
 h1 small,
@@ -1282,12 +1309,10 @@ h2,
 h3,
 .h3 {
   font-size: 24px;
-  color: blue;
 }
 h4,
 .h4 {
   font-size: 24px;
-  color: #f00;
 }
 h5,
 .h5 {
@@ -1428,6 +1453,7 @@ ul,
 ol {
   margin-top: 0;
   margin-bottom: 10px;
+  font-size: 18px;
 }
 ul ul,
 ol ul,
